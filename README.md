@@ -1,44 +1,80 @@
 # 0x0B. Implement a design with bootstrap
 
--   By Nicolas Philippot, UI/UX designer and Guillaume Salva, CTO at Holberton School
--   Weight: 3
--   Ongoing second chance project - started
-    
-    May 8, 2022
-    
-    , must end by
-    
-    May 19, 2022
-    
-    - you're done with  0% of tasks.
--   **Manual QA review must be done**  (request it when you are done with the project)
+## Learning Objectives:bulb:
 
 In this project, you will implement 3 web pages with Bootstrap. You will use all HTML/CSS/Accessibility/Responsive design/Bootstrap knowledges that you learned previously.
 
 You won’t have a lot of instruction, you are free to implement it the way that you want - the objective is simple: Have fully functional web pages that look the same as the designer file.
 
-Here the final result:
+Here's the final result:
 
-![](https://holbertonintranet.s3.amazonaws.com/uploads/medias/2020/3/3c71cc99d2fc1c12a3d3.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOU5BHMTQX4%2F20220517%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220517T013817Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=bda1bce1e983f1bb0bd08153067a779bc1a7202ac01812d647506a5cf0979086)
+![Final result](https://raw.githubusercontent.com/bmuha1/holberton-smiling-school/master/images/holberton-smiling-school.jpg)
+---
 
-This webpage has been designed by Nicolas Philippot, UI/UX designer. You can find final screens  [here](https://intranet-projects-files.s3.amazonaws.com/holbertonschool-webstack/623/Archive.zip "here")
+### [0. Read and be familiar with Figma](./README.md)
+* Create an account in Figma and open these files:
 
-### Requirements
 
--   You have to use Bootstrap
--   Your  `styles.css`  must be as small as you can -  **you must use as much as you can Bootstrap classes**
+### [1. Header first](./0-homepage.html)
+* Let’s start by the Homepage: create the header/hero piece
 
-### Imports
 
-For this project, you will need: fonts from Google, JQuery, Bootstrap CSS/JS
+### [2. Carousel of quotes](./1-homepage.html)
+* Create the section “Carousel of quotes”
 
-```
-<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Coiny&display=swap" rel="stylesheet">
 
-<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+### [3. Popular videos](./2-homepage.html)
+* Create the section “Most popular tutorials”
 
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-```
+
+### [4. Row of smiles](./3-homepage.html)
+* Create the section “Free membership”
+
+
+### [5. Latest videos](./4-homepage.html)
+* Create the section “Latest videos”
+
+
+### [6. ... and the footer!](./homepage.html)
+* Create the footer
+
+
+### [7. Pricing - header](./0-pricing.html)
+* Now, let’s do the pricing page: create the header/hero piece
+
+
+### [8. Prices grid](./1-pricing.html)
+* Create the prices grid
+
+
+### [9. Quotes section](./2-pricing.html)
+* Same as the Homepage, create the Carousel of quotes
+
+
+### [10. FAQ](./3-pricing.html)
+* Create the FAQ grid
+
+
+### [11. Close the page with a footer](./pricing.html)
+* Same as Homepage, create the footer
+
+
+### [12. Courses - header](./0-courses.html)
+* Now, let’s do the courses page: create the header/hero piece
+
+
+### [13. Search filters](./1-courses.html)
+* Create the search filters section
+
+
+### [14. List of result](./2-courses.html)
+* Create the result section of courses
+
+
+### [15. Close the page with a footer](./courses.html)
+* Same as Homepage and Pricing page, create the footer
+
+---
+
+## Author
+* **Brent Muha** - [bmuha1](github.com/bmuha1)
